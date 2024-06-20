@@ -441,7 +441,7 @@ footer a {
 }
 
 
-@media (max-width: 500px) {
+@media (max-width: 300px) {
 
     nav ul{
         gap: 20px;
