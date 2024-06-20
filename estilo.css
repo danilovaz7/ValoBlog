@@ -153,6 +153,15 @@ aside {
     height: 28%;
 }
 
+#pag404{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
 
 .noticia-index img {
     width: 40%;
@@ -303,6 +312,8 @@ footer a {
 
     }
 
+    
+
 
 }
 
@@ -379,6 +390,8 @@ footer a {
 
 
     }
+
+    
 
     .conteudo-noticia-postagens {
         width: 100%;
