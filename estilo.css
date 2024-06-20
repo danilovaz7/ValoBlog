@@ -153,15 +153,6 @@ aside {
     height: 28%;
 }
 
-#pag404{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-}
-
 
 .noticia-index img {
     width: 40%;
@@ -312,8 +303,6 @@ footer a {
 
     }
 
-    
-
 
 }
 
@@ -391,8 +380,6 @@ footer a {
 
     }
 
-    
-
     .conteudo-noticia-postagens {
         width: 100%;
     }
@@ -415,7 +402,16 @@ footer a {
         font-size: 16px;
 
     }
+    nav{
+        padding-right: 0px;
+    }
+    nav ul{
+        gap: 30px;
+    }
 
+    nav a{
+        font-size: 15px;
+    }
 
     .noticia-index {
         flex-direction: column;
@@ -441,5 +437,14 @@ footer a {
     }
 
 
+
+}
+
+
+@media (max-width: 500px) {
+
+    nav ul{
+        gap: 20px;
+    }
 
 }
